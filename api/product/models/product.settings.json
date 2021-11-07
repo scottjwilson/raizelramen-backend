@@ -19,9 +19,6 @@
       "type": "string",
       "required": true
     },
-    "price": {
-      "type": "float"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -42,11 +39,6 @@
       "collection": "category",
       "via": "products"
     },
-    "Custom_field": {
-      "type": "component",
-      "repeatable": true,
-      "component": "custom.custom-field"
-    },
     "status": {
       "type": "enumeration",
       "enum": [
@@ -58,6 +50,11 @@
     },
     "number": {
       "type": "integer"
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.variants"
     }
   }
 }
