@@ -62,6 +62,10 @@
     "orders": {
       "via": "users_permissions_user",
       "collection": "order"
+    },
+    "cart_items": {
+      "via": "users_permissions_user",
+      "collection": "cart-item"
     }
   }
 }
