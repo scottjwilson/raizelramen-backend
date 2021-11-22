@@ -51,10 +51,13 @@
     "number": {
       "type": "integer"
     },
-    "options": {
+    "price": {
+      "type": "decimal"
+    },
+    "modifers": {
       "type": "component",
       "repeatable": true,
-      "component": "custom.variants"
+      "component": "modifers.custom-field"
     }
   }
 }

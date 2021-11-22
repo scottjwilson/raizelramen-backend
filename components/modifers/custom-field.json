@@ -1,8 +1,9 @@
 {
   "collectionName": "components_custom_custom_fields",
   "info": {
-    "name": "Custom_field",
-    "icon": "archway"
+    "name": "custom_mod",
+    "icon": "archway",
+    "description": ""
   },
   "options": {},
   "attributes": {
