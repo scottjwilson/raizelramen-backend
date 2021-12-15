@@ -12,11 +12,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "orderid": {
+    "orderID": {
       "type": "uid"
-    },
-    "products": {
-      "collection": "product"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",
@@ -25,6 +22,9 @@
     },
     "charge": {
       "type": "string"
+    },
+    "cart": {
+      "model": "cart"
     }
   }
 }

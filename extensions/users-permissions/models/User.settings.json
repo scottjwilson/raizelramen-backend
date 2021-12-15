@@ -66,6 +66,10 @@
     "cart_items": {
       "via": "users_permissions_user",
       "collection": "cart-item"
+    },
+    "carts": {
+      "via": "users_permissions_users",
+      "collection": "cart"
     }
   }
 }

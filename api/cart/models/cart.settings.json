@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "cart_items",
+  "collectionName": "carts",
   "info": {
-    "name": "Cart Item",
+    "name": "Cart",
     "description": ""
   },
   "options": {
@@ -12,21 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "quantity": {
-      "type": "integer",
-      "default": 1,
-      "required": true
-    },
-    "product": {
-      "model": "product"
-    },
-    "users_permissions_user": {
+    "users_permissions_users": {
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "cart_items"
+      "collection": "user",
+      "via": "carts",
+      "dominant": true
     },
-    "cartItemID": {
+    "cart_items": {
+      "collection": "cart-item"
+    },
+    "cartID": {
       "type": "uid",
+      "private": false,
       "required": true
     }
   }
