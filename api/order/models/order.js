@@ -1,8 +1,13 @@
-'use strict';
+"use strict";
 
-/**
- * Read the documentation (https://strapi.io/documentation/developer-docs/latest/development/backend-customization.html#lifecycle-hooks)
- * to customize this model
- */
+const { v4: uuid } = require("uuid");
 
-module.exports = {};
+module.exports = {
+  lifecycles: {
+    beforeCreate: async (model) => {
+      if (!model.uuid) {
+        model.uuid = uuid();
+      }
+    },
+  },
+};
