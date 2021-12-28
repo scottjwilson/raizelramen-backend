@@ -14,7 +14,8 @@
       "type": "boolean"
     },
     "options": {
-      "type": "string"
+      "type": "string",
+      "default": "Small[+0.00]Medium[+1.00]Large[+2.00]"
     }
   }
 }

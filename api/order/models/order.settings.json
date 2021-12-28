@@ -22,6 +22,9 @@
     },
     "line_items": {
       "type": "json"
+    },
+    "products": {
+      "collection": "product"
     }
   }
 }
