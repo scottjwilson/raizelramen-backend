@@ -25,6 +25,15 @@
     },
     "products": {
       "collection": "product"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "pending",
+        "inprogress",
+        "completed"
+      ],
+      "default": "pending"
     }
   }
 }
