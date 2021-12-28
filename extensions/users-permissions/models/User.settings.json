@@ -59,17 +59,12 @@
       "plugin": "users-permissions",
       "configurable": false
     },
+    "full_name": {
+      "type": "string"
+    },
     "orders": {
-      "via": "users_permissions_user",
+      "via": "user",
       "collection": "order"
-    },
-    "cart_items": {
-      "via": "users_permissions_user",
-      "collection": "cart-item"
-    },
-    "carts": {
-      "via": "users_permissions_users",
-      "collection": "cart"
     }
   }
 }
