@@ -59,9 +59,6 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "full_name": {
-      "type": "string"
-    },
     "orders": {
       "via": "user",
       "collection": "order"

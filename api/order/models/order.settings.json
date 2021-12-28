@@ -13,9 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "user": {
+      "via": "orders",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "orders"
+      "model": "user"
     },
     "uuid": {
       "default": "",
@@ -32,7 +32,11 @@
     },
     "status": {
       "type": "enumeration",
-      "enum": ["pending", "inprogress", "completed"],
+      "enum": [
+        "pending",
+        "inprogress",
+        "completed"
+      ],
       "default": "pending"
     }
   }
