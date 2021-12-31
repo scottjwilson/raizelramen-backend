@@ -31,9 +31,9 @@ module.exports = {
       "user.id": ctx.state.user.id,
     });
 
-    if (!order) {
-      return ctx.unauthorized(`You can't update this entry`);
-    }
+    // if (!order) {
+    //   return ctx.unauthorized(`You can't update this entry sir`);
+    // }
 
     if (ctx.is("multipart")) {
       const { data, files } = parseMultipartData(ctx);
