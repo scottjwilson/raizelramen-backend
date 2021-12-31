@@ -62,10 +62,6 @@
     "orders": {
       "via": "user",
       "collection": "order"
-    },
-    "ordas": {
-      "via": "user",
-      "collection": "pedido"
     }
   }
 }

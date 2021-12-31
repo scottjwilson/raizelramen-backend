@@ -2,56 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/pedidos",
-      "handler": "pedido.find",
+      "path": "/estados",
+      "handler": "estado.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/pedidos/me",
-      "handler": "pedido.me",
+      "path": "/estados/count",
+      "handler": "estado.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/pedidos/count",
-      "handler": "pedido.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/pedidos/:id",
-      "handler": "pedido.findOne",
+      "path": "/estados/:id",
+      "handler": "estado.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/pedidos",
-      "handler": "pedido.create",
+      "path": "/estados",
+      "handler": "estado.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/pedidos/:id",
-      "handler": "pedido.update",
+      "path": "/estados/:id",
+      "handler": "estado.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/pedidos/:id",
-      "handler": "pedido.delete",
+      "path": "/estados/:id",
+      "handler": "estado.delete",
       "config": {
         "policies": []
       }

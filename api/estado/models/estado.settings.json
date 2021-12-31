@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "statuses",
+  "collectionName": "estados",
   "info": {
-    "name": "status",
-    "description": ""
+    "name": "estado"
   },
   "options": {
     "increments": true,
@@ -12,12 +11,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "text": {
+    "title": {
       "type": "string"
     },
-    "pedidos": {
-      "collection": "pedido",
-      "via": "status"
+    "orders": {
+      "collection": "order",
+      "via": "estado"
     }
   }
 }

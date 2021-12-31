@@ -26,6 +26,10 @@
     },
     "line_items": {
       "type": "json"
+    },
+    "estado": {
+      "via": "orders",
+      "model": "estado"
     }
   }
 }
