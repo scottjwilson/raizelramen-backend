@@ -12,12 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "order": {
-      "model": "order",
-      "via": "order_status"
-    },
     "text": {
       "type": "string"
+    },
+    "orders": {
+      "collection": "order",
+      "via": "status",
+      "dominant": true
     }
   }
 }

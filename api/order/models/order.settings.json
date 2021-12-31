@@ -27,20 +27,8 @@
     "line_items": {
       "type": "json"
     },
-    "products": {
-      "collection": "product"
-    },
     "status": {
-      "type": "enumeration",
-      "enum": [
-        "pending",
-        "inprogress",
-        "completed"
-      ],
-      "default": "pending"
-    },
-    "order_status": {
-      "via": "order",
+      "via": "orders",
       "model": "status"
     }
   }
