@@ -38,6 +38,10 @@
         "completed"
       ],
       "default": "pending"
+    },
+    "order_status": {
+      "via": "order",
+      "model": "status"
     }
   }
 }
