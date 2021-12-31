@@ -15,10 +15,9 @@
     "text": {
       "type": "string"
     },
-    "orders": {
-      "collection": "order",
-      "via": "status",
-      "dominant": true
+    "pedidos": {
+      "collection": "pedido",
+      "via": "status"
     }
   }
 }

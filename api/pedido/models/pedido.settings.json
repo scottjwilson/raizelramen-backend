@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "orders",
+  "collectionName": "pedidos",
   "info": {
-    "name": "Order",
+    "name": "pedido",
     "description": ""
   },
   "options": {
@@ -12,20 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "user": {
-      "via": "orders",
-      "plugin": "users-permissions",
-      "model": "user"
-    },
     "uuid": {
       "default": "",
       "type": "uuid"
     },
-    "charge": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "ordas"
+    },
+    "stripe": {
       "type": "string"
     },
     "line_items": {
       "type": "json"
+    },
+    "status": {
+      "via": "pedidos",
+      "model": "status"
     }
   }
 }
