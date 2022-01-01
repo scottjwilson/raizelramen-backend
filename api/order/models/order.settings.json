@@ -30,6 +30,15 @@
     "estado": {
       "via": "orders",
       "model": "estado"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "subtotal": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
     }
   }
 }
