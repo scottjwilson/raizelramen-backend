@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_modifers_mods",
+  "info": {
+    "name": "mod",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

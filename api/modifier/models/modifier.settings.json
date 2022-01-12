@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modifiers",
+  "info": {
+    "name": "Modifier",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "max": {
+      "type": "integer"
+    },
+    "mod": {
+      "type": "component",
+      "repeatable": true,
+      "component": "modifers.mod"
+    },
+    "products": {
+      "via": "modifiers",
+      "collection": "product"
+    }
+  }
+}

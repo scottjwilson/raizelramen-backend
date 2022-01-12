@@ -52,12 +52,12 @@
       "type": "integer"
     },
     "price": {
-      "type": "decimal"
+      "type": "integer"
     },
-    "modifers": {
-      "type": "component",
-      "repeatable": true,
-      "component": "modifers.custom-field"
+    "modifiers": {
+      "collection": "modifier",
+      "via": "products",
+      "dominant": true
     }
   }
 }
