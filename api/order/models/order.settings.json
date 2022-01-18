@@ -37,6 +37,9 @@
     "subtotal": {
       "type": "string"
     },
+    "tax": {
+      "type": "string"
+    },
     "total": {
       "type": "string"
     }
