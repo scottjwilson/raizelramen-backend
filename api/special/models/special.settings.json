@@ -22,7 +22,7 @@
       "model": "product"
     },
     "price": {
-      "type": "decimal"
+      "type": "integer"
     },
     "side": {
       "type": "string"
