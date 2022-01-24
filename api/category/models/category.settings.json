@@ -16,6 +16,9 @@
       "type": "uid",
       "targetField": "name"
     },
+    "number": {
+      "type": "integer"
+    },
     "products": {
       "via": "categories",
       "collection": "product",
