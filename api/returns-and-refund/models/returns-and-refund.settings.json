@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "returns_and_refunds",
+  "info": {
+    "name": "Returns & Refund"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

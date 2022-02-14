@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/disclaimer",
+      "handler": "disclaimer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/disclaimer",
+      "handler": "disclaimer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/disclaimer",
+      "handler": "disclaimer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

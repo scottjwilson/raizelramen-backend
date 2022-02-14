@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/returns-and-refund",
+      "handler": "returns-and-refund.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/returns-and-refund",
+      "handler": "returns-and-refund.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/returns-and-refund",
+      "handler": "returns-and-refund.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

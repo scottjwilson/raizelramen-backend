@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "disclaimers",
+  "info": {
+    "name": "Disclaimer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

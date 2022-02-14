@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupons",
+  "info": {
+    "name": "coupon"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "orders": {
+      "collection": "order",
+      "via": "coupons",
+      "dominant": true
+    },
+    "percentOff": {
+      "type": "biginteger"
+    }
+  }
+}

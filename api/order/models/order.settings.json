@@ -42,6 +42,10 @@
     },
     "total": {
       "type": "string"
+    },
+    "coupons": {
+      "via": "orders",
+      "collection": "coupon"
     }
   }
 }
