@@ -58,6 +58,9 @@
       "collection": "modifier",
       "via": "products",
       "dominant": true
+    },
+    "isFeatured": {
+      "type": "boolean"
     }
   }
 }
