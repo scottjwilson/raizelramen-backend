@@ -62,6 +62,9 @@
     "orders": {
       "via": "user",
       "collection": "order"
+    },
+    "phone": {
+      "type": "biginteger"
     }
   }
 }
