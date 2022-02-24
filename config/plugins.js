@@ -4,6 +4,7 @@ module.exports = ({ env }) => ({
     providerOptions: {
       host: env("SMTP_HOST", "smtp.gmail.com"),
       port: env("SMTP_PORT", 465),
+      secure: true;
 
       auth: {
         user: env("SMTP_USERNAME"),
