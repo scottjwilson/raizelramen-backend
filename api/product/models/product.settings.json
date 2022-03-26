@@ -55,8 +55,8 @@
       "type": "integer"
     },
     "modifiers": {
-      "collection": "modifier",
       "via": "products",
+      "collection": "modifier",
       "dominant": true
     },
     "isFeatured": {

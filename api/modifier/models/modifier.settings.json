@@ -29,6 +29,10 @@
     "products": {
       "via": "modifiers",
       "collection": "product"
+    },
+    "custom": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
