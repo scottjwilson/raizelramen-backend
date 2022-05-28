@@ -20,11 +20,6 @@
     "isActive": {
       "type": "boolean"
     },
-    "orders": {
-      "collection": "order",
-      "via": "coupons",
-      "dominant": true
-    },
     "percentOff": {
       "type": "biginteger"
     }
